@@ -1,0 +1,30 @@
+Each Robot may but not necessarily have to do any action(move,pickup,dropoff) in a given time instance.
+A robot can only perform at most one action per time instance.
+A robot cannot swap with other robots on it.
+A robot cannot move outside the initialized grid in Warehouse.
+A same robot cannot be on more than one cell/location.
+At most one robot on a given cell/location.
+A robot cannot go to a cell with shelf if it has a shelf on it before.
+A shelf can be at only one cell/location. (only on one node/robot in a grid and can only be either on a node or on a robot)
+A Shelf cannot be at two cells at a given time instance T.
+A Shelf cannot be at two robots at a given time instance T.
+A Shelf cannot be at at a cell and on robot at a given time instance T.
+Two different shelves cannot be on the same robot at a given time instance T.
+Two or more shelves cannot be on one node.
+A robot can only pickup one shelf which is on its current cell/location.
+Only one robot can pickup the shelf.
+Only the shelf picked up by robot should be on it.
+A robot cannot pick other shelf if already has one on it.
+A robot cannot dropoff shelf if it does not have it.
+A robot cannot put down shelf on highway
+Shelf cannot be on the Highway.
+picking station cannot be on the Highway.
+A robot need to be on the order picking station.
+Delivery is only possible if robot has the product on its shelf that was ordered.
+Delivery is only possible if robot has the shelf with the ordered product.
+Delivery not allowed if the asked amount of units of a product is more than available units of the product on the shelf.
+A robot does not change location if no move action is done on it.
+A shelf remains at the same cell/location if no action(like pickup) is done on it.
+A shelf remain on a robot if no dropoff action is done on it.
+An order is not complete if it is not yet delivered.
+Units of product on a shel remains the same if not delivered in any order.
